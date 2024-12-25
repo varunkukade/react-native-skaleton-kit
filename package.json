@@ -203,5 +203,8 @@
     "type": "turbo-module",
     "languages": "kotlin-objc",
     "version": "0.45.5"
+  },
+  "dependencies": {
+    "@commitlint/config-angular": "latest"
   }
 }
