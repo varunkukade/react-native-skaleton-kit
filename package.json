@@ -1,7 +1,7 @@
 {
   "name": "react-native-skaleton-kit",
   "version": "0.1.0",
-  "description": "reusable component of the loading skeleton",
+  "description": "Reusable component of the loading skeleton",
   "source": "./src/index.tsx",
   "main": "./lib/commonjs/index.js",
   "module": "./lib/module/index.js",
@@ -70,7 +70,7 @@
     "@react-native/eslint-config": "^0.73.1",
     "@release-it/conventional-changelog": "^9.0.2",
     "@types/jest": "^29.5.5",
-    "@types/react": "^18.2.44",
+    "@types/react": "^18.3.18",
     "commitlint": "^17.0.2",
     "del-cli": "^5.1.0",
     "eslint": "^8.51.0",
@@ -81,6 +81,8 @@
     "react": "18.3.1",
     "react-native": "0.76.5",
     "react-native-builder-bob": "^0.32.0",
+    "react-native-linear-gradient": "2.8.3",
+    "react-native-reanimated": "3.16.6",
     "release-it": "^17.10.0",
     "turbo": "^1.10.7",
     "typescript": "^5.2.2"
@@ -90,7 +92,9 @@
   },
   "peerDependencies": {
     "react": "*",
-    "react-native": "*"
+    "react-native": "*",
+    "react-native-linear-gradient": "2.8.3",
+    "react-native-reanimated": "3.16.6"
   },
   "workspaces": [
     "example"
