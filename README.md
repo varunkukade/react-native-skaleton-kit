@@ -13,6 +13,12 @@ A high-performance skeleton loading animation library for React Native, powered 
 - 🎨 Highly customizable animations and styling
 - 📱 Support for React Native CLI projects
 
+## Demo
+
+https://github.com/user-attachments/assets/943132f3-dd3d-43ec-9fa5-94937ace14d1
+
+
+
 > **Note**: Currently available for React Native CLI projects only.
 
 ## Installation
