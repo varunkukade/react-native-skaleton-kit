@@ -1582,22 +1582,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/config-angular-type-enum@npm:^19.5.0":
-  version: 19.5.0
-  resolution: "@commitlint/config-angular-type-enum@npm:19.5.0"
-  checksum: 91b1d9d3791c293470c2e91a3dc8e39bc894e64303c3d371baaab48053fc16119d7fae75066d68cbd964ecd88b00fcf3ef4e25f6489f2507ddb43322fd322f99
-  languageName: node
-  linkType: hard
-
-"@commitlint/config-angular@npm:latest":
-  version: 19.6.0
-  resolution: "@commitlint/config-angular@npm:19.6.0"
-  dependencies:
-    "@commitlint/config-angular-type-enum": ^19.5.0
-  checksum: 02d977b52c38ba1083ca41dee0627ee37f2fb2169febeeedc9c7f6085ff69ae8343257b8f2275eb548e2d8ba88b97c6b421869fc5dcf01549026f54b8afda865
-  languageName: node
-  linkType: hard
-
 "@commitlint/config-conventional@npm:^17.0.2":
   version: 17.8.1
   resolution: "@commitlint/config-conventional@npm:17.8.1"
@@ -10611,7 +10595,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native-linear-gradient@npm:2.8.3, react-native-linear-gradient@npm:^2.8.3":
+"react-native-linear-gradient@npm:2.8.3":
   version: 2.8.3
   resolution: "react-native-linear-gradient@npm:2.8.3"
   peerDependencies:
@@ -10621,7 +10605,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native-reanimated@npm:3.16.6, react-native-reanimated@npm:^3.16.6":
+"react-native-reanimated@npm:3.16.6":
   version: 3.16.6
   resolution: "react-native-reanimated@npm:3.16.6"
   dependencies:
@@ -10660,8 +10644,8 @@ __metadata:
     react: 18.3.1
     react-native: 0.76.5
     react-native-builder-bob: ^0.32.0
-    react-native-linear-gradient: ^2.8.3
-    react-native-reanimated: ^3.16.6
+    react-native-linear-gradient: 2.8.3
+    react-native-reanimated: 3.16.6
   languageName: unknown
   linkType: soft
 
@@ -10669,7 +10653,6 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "react-native-skaleton-kit@workspace:."
   dependencies:
-    "@commitlint/config-angular": latest
     "@commitlint/config-conventional": ^17.0.2
     "@evilmartians/lefthook": ^1.5.0
     "@react-native-community/cli": 15.0.1
@@ -10693,10 +10676,10 @@ __metadata:
     turbo: ^1.10.7
     typescript: ^5.2.2
   peerDependencies:
-    react: "*"
-    react-native: "*"
-    react-native-linear-gradient: 2.8.3
-    react-native-reanimated: 3.16.6
+    react: ">=16.8.0"
+    react-native: ">=0.63.0"
+    react-native-linear-gradient: ">=2.8.3"
+    react-native-reanimated: ">=3.0.0 <4.0.0"
   languageName: unknown
   linkType: soft
 

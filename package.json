@@ -91,10 +91,10 @@
     "@types/react": "^18.2.44"
   },
   "peerDependencies": {
-    "react": "*",
-    "react-native": "*",
-    "react-native-linear-gradient": "2.8.3",
-    "react-native-reanimated": "3.16.6"
+    "react": ">=16.8.0",
+    "react-native": ">=0.63.0",
+    "react-native-linear-gradient": ">=2.8.3",
+    "react-native-reanimated": ">=3.0.0 <4.0.0"
   },
   "workspaces": [
     "example"
@@ -203,8 +203,5 @@
     "type": "turbo-module",
     "languages": "kotlin-objc",
     "version": "0.45.5"
-  },
-  "dependencies": {
-    "@commitlint/config-angular": "latest"
   }
 }
