@@ -1,6 +1,6 @@
 # React Native Skaleton Kit
 
-A high-performance skeleton loading animation library for React Native, powered by Reanimated 3. Create beautiful shimmering and pulsing loading states with customizable animations.
+A high-performance (60FPS) skeleton loading animation library for React Native, powered by Reanimated 3. Create beautiful shimmering and pulsing loading states with customizable animations.
 
 ![npm](https://img.shields.io/npm/v/react-native-skaleton-kit)
 ![license](https://img.shields.io/npm/l/react-native-skaleton-kit)
