@@ -43,7 +43,16 @@ You'll need to install and configure the following peer dependencies if you have
 - [react-native-reanimated](https://docs.swmansion.com/react-native-reanimated/docs/fundamentals/getting-started#installation)
 - [react-native-linear-gradient](https://github.com/react-native-linear-gradient/react-native-linear-gradient#readme)
 
-Make sure to follow their respective setup instructions to avoid version conflicts.
+Make sure to also follow their respective setup instructions.
+
+
+### Compatibility
+
+- Minimum React Native version supported: `0.63.0`
+- React Native Linear Gradient: `>=2.6.0`
+- React Native Reanimated: Version depends on your React Native version. Please refer to the [Reanimated compatibility table](https://docs.swmansion.com/react-native-reanimated/docs/guides/compatibility#currently-supported-react-native-versions-paper) to select the appropriate version.
+
+
 
 ## Usage
 
