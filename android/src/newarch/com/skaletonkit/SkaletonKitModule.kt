@@ -7,9 +7,7 @@ class SkaletonKitModule(reactContext: ReactApplicationContext) : NativeSkaletonK
   private var implementation: SkaletonKitModuleImpl = SkaletonKitModuleImpl()
 
   override fun getName(): String = SkaletonKitModuleImpl.NAME
-
-  override fun multiple(a: Double, b: Double): Double {
-    // Use the implementation instance to execute the function.
-    implementation.multiple(a, b)
+  override fun multiply(a: Double, b: Double): Double {
+    return implementation.multiply(a, b)
   }
 }
