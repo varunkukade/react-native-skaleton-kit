@@ -1,7 +1,7 @@
 {
   "name": "react-native-skaleton-kit",
-  "version": "0.1.2",
-  "description": "Reusable component of the loading skeleton",
+  "version": "0.1.4",
+  "description": "✨ Elegant Loading Skeleton for React Native - Built with Reanimated V3 Magic! ✨",
   "source": "./src/index.tsx",
   "main": "./lib/commonjs/index.js",
   "module": "./lib/module/index.js",
