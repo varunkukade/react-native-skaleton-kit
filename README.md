@@ -12,7 +12,7 @@ A high-performance (60FPS) skeleton loading animation library for React Native, 
 - ⚡️ Built with Reanimated 3 for optimal performance
 - 🎨 Highly customizable animations and styling
 - 📱 Support for React Native CLI projects
-- ✅ Supports new Architecture 
+- ✅ Supports new Architecture
 - ✅ Backwards compatibility with old architecture
 
 ## Demo
